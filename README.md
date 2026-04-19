@@ -38,22 +38,8 @@ And provides a playbook of safe patterns for common tasks:
 
 ## Install
 
-1. Add the marketplace:
-
-   ```
-   /plugin marketplace add pkyosx/claude-plugin-dont-touch-secrets
-   ```
-
-2. Install the plugin:
-
-   ```
-   /plugin install dont-touch-secrets@pkyosx-plugins
-   ```
-
-## Local install (for development)
-
 ```
-/plugin marketplace add /absolute/path/to/claude-plugin-dont-touch-secrets
+/plugin marketplace add pkyosx/claude-plugins
 /plugin install dont-touch-secrets@pkyosx-plugins
 ```
 
