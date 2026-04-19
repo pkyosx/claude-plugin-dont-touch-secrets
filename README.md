@@ -1,5 +1,15 @@
 # dont-touch-secrets
 
+> ⚠️ **This repo has moved to [pkyosx/claude-plugins](https://github.com/pkyosx/claude-plugins).**
+> This repo is archived and will not receive further updates. To migrate:
+>
+> ```
+> /plugin marketplace remove pkyosx-plugins
+> /plugin marketplace add pkyosx/claude-plugins
+> /plugin install dont-touch-secrets@pkyosx-plugins
+> /reload-plugins
+> ```
+
 A Claude Code plugin that keeps credential values out of the conversation transcript.
 
 ## Why
