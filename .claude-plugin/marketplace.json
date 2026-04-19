@@ -1,0 +1,17 @@
+{
+  "name": "pkyosx-plugins",
+  "owner": {
+    "name": "pkyosx",
+    "url": "https://github.com/pkyosx"
+  },
+  "plugins": [
+    {
+      "name": "dont-touch-secrets",
+      "source": {
+        "source": "github",
+        "repo": "pkyosx/claude-plugin-dont-touch-secrets"
+      },
+      "description": "Keep secret values out of the conversation transcript. Provides safe patterns (fingerprint, exit-code, HTTP-status) for validating, comparing, rotating, and inspecting credentials without the agent ever reading the value."
+    }
+  ]
+}
